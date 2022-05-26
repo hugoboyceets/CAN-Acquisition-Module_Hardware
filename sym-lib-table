@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "CAN-Acquisition-Module-rescue")(type "Legacy")(uri "${KIPRJMOD}/CAN-Acquisition-Module-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M483SGCAE2A
+D Nuvoton MCU, Cortex®-M4F 192 MHz, CANbus, 128 kB SRAM,  256kB flash, 64LQFP
+F https://www.nuvoton.com/export/resource-files/DS_M480_Series_EN_Rev3.04.pdf
+$ENDCMP
+#
+#End Doc Library

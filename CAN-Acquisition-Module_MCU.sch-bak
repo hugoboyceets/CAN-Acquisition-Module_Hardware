@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CAN-Acquisition-Module:M483SGCAE2A U?
+U 1 1 628F5983
+P 5000 2600
+F 0 "U?" H 7144 1646 50  0000 L CNN
+F 1 "M483SGCAE2A" H 7144 1555 50  0000 L CNN
+F 2 "Package_QFP:LQFP-64_7x7mm_P0.4mm" H 5050 2650 50  0001 C CNN
+F 3 "https://www.nuvoton.com/export/resource-files/DS_M480_Series_EN_Rev3.04.pdf" H 5050 2650 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

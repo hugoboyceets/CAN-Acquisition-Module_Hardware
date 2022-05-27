@@ -170,6 +170,11 @@
     (uuid fa91d7a2-1d62-4e2a-a0b4-dd133f6b27b6)
   )
 
+  (text "Add optional split termination!" (at 55.88 76.2 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 4058b43b-ae3d-44c5-93aa-5bf28fcb4369)
+  )
+
   (label "CAN_L{slash}GRN" (at 57.15 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 11ac62c2-1849-4a12-8c29-b99131b624ee)

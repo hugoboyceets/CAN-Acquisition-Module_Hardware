@@ -284,7 +284,7 @@
     (property "Reference" "U" (id 0) (at 1.27 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "S-8581AA" (id 1) (at 12.7 -13.97 0)
+    (property "Value" "S-8581AA" (id 1) (at 13.97 -13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "CAN-Acquisition-Module:Ablic_HSTN-8-A" (id 2) (at -15.24 -30.48 0)

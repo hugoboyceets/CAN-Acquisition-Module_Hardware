@@ -339,6 +339,18 @@
     [
       "81a15923-96df-4f0e-bdf1-6a0e43d4751e",
       "LED"
+    ],
+    [
+      "71359799-714b-4644-8db4-495310f76a1b",
+      "Analog"
+    ],
+    [
+      "5f5345ca-f2d2-466f-a4ac-3c846c4226e8",
+      "Sensors"
+    ],
+    [
+      "341b7c98-b7c0-49e4-b19a-093f835f71de",
+      "Screen"
     ]
   ],
   "text_variables": {}

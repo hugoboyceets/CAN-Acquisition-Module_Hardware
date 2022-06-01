@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CANbus Acquisition Module")
+    (date "2022-06-01")
+    (rev "A1")
+    (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
+    (comment 1 "Designer: Hugo Boyce")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -985,7 +993,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d16b179f-84ae-480f-b584-a3228ec12bb5)
   )
-  (hierarchical_label "V_CAN" (shape input) (at 41.91 58.42 90)
+  (hierarchical_label "V_CAN" (shape output) (at 41.91 58.42 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid dc19f2c4-72c8-4d2b-9f38-0e7450907dd9)
   )

@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CANbus Acquisition Module")
+    (date "2022-06-01")
+    (rev "A1")
+    (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
+    (comment 1 "Designer: Hugo Boyce")
+  )
+
   (lib_symbols
     (symbol "Device:LED_RGBA" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 9.398 0)

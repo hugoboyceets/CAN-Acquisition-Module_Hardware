@@ -1184,7 +1184,7 @@
   )
 
   (symbol (lib_id "power:GNDA") (at 100.33 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 02c6be79-d382-48e8-98d4-20a9ec8c3f8f)
     (property "Reference" "#PWR0104" (id 0) (at 100.33 60.96 0)
       (effects (font (size 1.27 1.27)) hide)

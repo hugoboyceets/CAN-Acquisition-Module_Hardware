@@ -17,4 +17,9 @@
   (fp_rect (start -1.25 -0.625) (end 1.25 0.625) (layer "F.Fab") (width 0.1) (fill none) (tstamp ea79818d-b50d-4094-8b80-e9f971b0b209))
   (pad "1" smd rect (at -1.15 0) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b610078c-d8f7-428e-b652-c17d73ad453f))
   (pad "2" smd rect (at 1.15 0) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 46e91e6b-1982-480c-9d08-1e13da1c0eeb))
+  (model "/home/hugo/Documents/PCB/STEP/USC.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

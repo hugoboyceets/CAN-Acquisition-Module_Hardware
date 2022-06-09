@@ -1402,7 +1402,7 @@
       (reference "#PWR0192") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/b7f22bf4-8b6d-4ee2-a440-dcb939d0dc18"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR0193") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/00000000-0000-0000-0000-000062a4552e"
       (reference "C1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1420,7 +1420,7 @@
       (reference "C6") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/db20c6e3-fb31-459b-8af2-bb1c4e0e4a4f"
-      (reference "C7") (unit 1) (value "220 uF") (footprint "Capacitor_SMD:CP_Elec_10x10.5")
+      (reference "C7") (unit 1) (value "220 uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/dfbd18db-6295-42e2-b6ac-14428dfd9a20"
       (reference "C8") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -1702,7 +1702,7 @@
       (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/9edd4d01-80be-493b-9cc3-c06192132c3b"
-      (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/00000000-0000-0000-0000-00006290a471"
       (reference "J4") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
@@ -1738,7 +1738,7 @@
       (reference "L1") (unit 1) (value "Ferrite") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/266f92cc-de0c-44f8-b657-4152290051a1"
-      (reference "L2") (unit 1) (value "330 uF") (footprint "Inductor_SMD:L_Bourns_SRN6045TA")
+      (reference "L2") (unit 1) (value "470 uF") (footprint "CAN-Acquisition-Module:Murata_LQH43_1812(4532_Metric)")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/f1815cfb-946b-45e1-985b-8e0ed5e489f3"
       (reference "L3") (unit 1) (value "4.7 uH") (footprint "Inductor_SMD:L_1008_2520Metric")

@@ -399,12 +399,12 @@
           "/CANbus/CAN_H{slash}YEL",
           "/CANbus/CAN_L{slash}GRN",
           "/CANbus/V+{slash}RED",
-          "Net-(C7-Pad1)",
+          "Net-(D6-Pad2)",
           "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0

@@ -1432,7 +1432,7 @@
       (reference "C5") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/db20c6e3-fb31-459b-8af2-bb1c4e0e4a4f"
-      (reference "C6") (unit 1) (value "220 uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "C6") (unit 1) (value "220 uF") (footprint "CAN-Acquisition-Module:CP_Radial_D10.0mm_P5.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/dfbd18db-6295-42e2-b6ac-14428dfd9a20"
       (reference "C7") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -1769,6 +1769,9 @@
     )
     (path "/2306ed72-7073-467c-a255-2365c3b83f36/33a3c070-bb5d-43ad-8750-e66087c2fed7"
       (reference "L6") (unit 1) (value "Ferrite") (footprint "Inductor_SMD:L_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000628fba98/fb32e0f4-2bf9-446b-9782-0d4218bde8b7"
+      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "CAN-Acquisition-Module:Net_Tie_small")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/c567200c-46c2-48c5-a974-3d81bc786a90"
       (reference "Q1") (unit 1) (value "SI2318A") (footprint "Package_TO_SOT_SMD:SOT-23")

@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.35,
-          "height": 1.85,
-          "width": 0.85
+          "drill": 0.0,
+          "height": 0.55,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.127
+          "45_degree_only": true,
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -124,6 +124,7 @@
         0.25,
         0.5,
         1.0,
+        1.5,
         2.0
       ],
       "via_dimensions": [
@@ -399,6 +400,8 @@
           "/CANbus/CAN_H{slash}YEL",
           "/CANbus/CAN_L{slash}GRN",
           "/CANbus/V+{slash}RED",
+          "Net-(C6-Pad1)",
+          "Net-(D1-Pad2)",
           "Net-(D6-Pad2)",
           "VBUS"
         ],
@@ -422,7 +425,8 @@
         "nets": [
           "+1V8",
           "+3.3VA",
-          "+3V3"
+          "+3V3",
+          "Net-(J4-Pad9)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -450,6 +454,27 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "intermediary",
+        "nets": [
+          "Net-(L3-Pad1)",
+          "Net-(NT1-Pad2)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6.0
       }
     ],

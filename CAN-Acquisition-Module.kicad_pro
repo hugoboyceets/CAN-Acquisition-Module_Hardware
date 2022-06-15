@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.55,
-          "width": 0.3
+          "drill": 0.35,
+          "height": 1.85,
+          "width": 0.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -86,7 +86,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -112,7 +112,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -133,7 +133,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.508,
+          "diameter": 0.514,
           "drill": 0.254
         },
         {
@@ -382,7 +382,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.508,
+        "via_diameter": 0.514,
         "via_drill": 0.254,
         "wire_width": 6.0
       },
@@ -399,6 +399,7 @@
         "nets": [
           "/CANbus/CAN_H{slash}YEL",
           "/CANbus/CAN_L{slash}GRN",
+          "/CANbus/SPLIT",
           "/CANbus/V+{slash}RED",
           "Net-(C6-Pad1)",
           "Net-(D1-Pad2)",
@@ -467,13 +468,14 @@
         "microvia_drill": 0.1,
         "name": "intermediary",
         "nets": [
-          "Net-(L3-Pad1)",
-          "Net-(NT1-Pad2)"
+          "/Power/V_USB",
+          "Net-(C7-Pad1)",
+          "Net-(L3-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.508,
+        "via_diameter": 0.514,
         "via_drill": 0.254,
         "wire_width": 6.0
       }

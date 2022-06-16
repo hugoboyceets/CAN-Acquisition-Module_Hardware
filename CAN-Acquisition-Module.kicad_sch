@@ -1720,7 +1720,7 @@
       (reference "D28") (unit 1) (value "CM1213A-01SO") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/d52911dc-6daa-4260-ab36-615528445476"
-      (reference "F1") (unit 1) (value "PPTC, 50-500mA, 60V") (footprint "Fuse:Fuse_1206_3216Metric")
+      (reference "F1") (unit 1) (value "100 mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/00000000-0000-0000-0000-00006294466f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")

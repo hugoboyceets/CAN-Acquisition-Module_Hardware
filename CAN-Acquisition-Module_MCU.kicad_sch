@@ -7,7 +7,7 @@
   (title_block
     (title "CANbus Acquisition Module")
     (date "2022-06-01")
-    (rev "A1")
+    (rev "A2")
     (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
     (comment 1 "Designer: Hugo Boyce")
   )
@@ -3615,7 +3615,7 @@
     (property "Reference" "R11" (id 0) (at 52.07 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120 Ω" (id 1) (at 57.15 72.39 90)
+    (property "Value" "220 Ω" (id 1) (at 57.15 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 55.88 71.12 0)

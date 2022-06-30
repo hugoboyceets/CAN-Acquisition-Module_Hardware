@@ -1828,7 +1828,7 @@
       (reference "R10") (unit 1) (value "300 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/404efa5a-3ca9-4bbe-a141-3b6556015078"
-      (reference "R11") (unit 1) (value "120 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R11") (unit 1) (value "220 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/75a3ed20-79d2-4a19-88a7-020019dfcc02"
       (reference "R12") (unit 1) (value "120 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")

@@ -15,9 +15,6 @@
   (lib_symbols
   )
 
-  (junction (at 185.42 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 9b869ceb-c0ca-4196-8df1-ba4e57b3427c)
-  )
 
   (wire (pts (xy 59.69 57.15) (xy 73.66 57.15))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -363,10 +360,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid efb5adcb-7aed-4ba8-8637-e81280a187ee)
   )
-  (wire (pts (xy 198.12 76.2) (xy 185.42 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f60412d2-4aec-4d8a-bad6-aa8f3dbce272)
-  )
   (wire (pts (xy 109.22 39.37) (xy 109.22 41.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f891c258-2a17-4ac9-b20b-ab8045959139)
@@ -374,6 +367,12 @@
   (wire (pts (xy 129.54 100.33) (xy 129.54 129.54))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f8b3debc-160b-4ebf-b062-c36a08ace1f0)
+  )
+
+  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix"
+    (at 16.51 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 41cf071c-4f4d-4642-8a60-14e0781ba38f)
   )
 
   (label "ADC10" (at 129.54 129.54 0)
@@ -718,10 +717,6 @@
     (pin "SCREEN_SS" input (at 198.12 59.69 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 51c00084-115c-4530-8b83-3e02a6078c5a)
-    )
-    (pin "SCREEN_RESET" input (at 198.12 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 32a4bc6e-b91b-4adc-bf8c-29b86c71d051)
     )
     (pin "SCREEN_COMMAND{slash}DATA" input (at 198.12 67.31 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1932,18 +1927,6 @@
     (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/d5f1af4f-cced-48a1-a4f8-c8c46f653e0d"
       (reference "R45") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/958d8bf1-ac9b-4596-9de4-94b09e72356a"
-      (reference "R46") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/3df96e17-a6d1-484c-a217-02994bf396a7"
-      (reference "R47") (unit 1) (value "0 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/3d025a35-ec4f-4c66-88db-fa668b95a8c1"
-      (reference "R48") (unit 1) (value "0 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/bc272525-76ab-46c7-bfd5-1729544cf1d6"
-      (reference "R49") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/538d7447-2814-4dcb-aa5b-dc482cea4c84"
       (reference "R50") (unit 1) (value "1 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -2012,9 +1995,6 @@
     )
     (path "/6d7c7c9c-1e38-4555-8d83-d2635ba71983/eafe39c3-5907-481a-977c-d1975b41c09d"
       (reference "R72") (unit 1) (value "10 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/6d7c7c9c-1e38-4555-8d83-d2635ba71983/cf9d4249-7694-4ef8-8dcb-8fe2f55de202"
-      (reference "R73") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a7ab022e-987c-4858-83e2-b4df42ea9922/0e1ecc51-c7e2-4c5b-be2f-5772e6393294"
       (reference "R74") (unit 1) (value "6.2 kΩ") (footprint "Resistor_SMD:R_0805_2012Metric")

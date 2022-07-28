@@ -491,7 +491,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CAN-Acquisition-Module.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

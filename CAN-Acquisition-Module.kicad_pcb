@@ -12834,7 +12834,7 @@
   (gr_text "Module\nd'Acquisition\nCANbus" (at 63.85 51.65 180) (layer "F.SilkS") (tstamp 55e2297b-cf01-48e9-bcd2-10c2ec913fac)
     (effects (font (size 2 2) (thickness 0.25)))
   )
-  (gr_text "Hugo Boyce   2022-06-14   Rev.A2" (at 78.675 27.875 180) (layer "F.SilkS") (tstamp 5c6f331c-7edd-4bae-a4cc-a6654613f6de)
+  (gr_text "Hugo Boyce   2022-09-19   Rev.A2" (at 78.675 27.875 180) (layer "F.SilkS") (tstamp 5c6f331c-7edd-4bae-a4cc-a6654613f6de)
     (effects (font (size 2 2) (thickness 0.25)))
   )
   (gr_text "PROG" (at 81.468 34.224 90) (layer "F.SilkS") (tstamp 7e114a47-d35b-46bc-a6c5-5f927f0d0d27)

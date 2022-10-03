@@ -11,4 +11,8 @@ The repository for the firmware can be found [here](https://github.com/hboyce4/C
 The repository the the PC server program can be found [here](https://github.com/hugoboyceets/CAN-Acquisition-Module_Server).
 
 
-![Photo](Photo.jpg)
+![Photo1](Photos/Photo1.jpg)
+![Photo2](Photos/Photo2.jpg)
+![Photo3](Photos/Photo3.jpg)
+![Photo4](Photos/Photo4.jpg)
+

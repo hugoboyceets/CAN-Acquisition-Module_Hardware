@@ -6,8 +6,8 @@
 
   (title_block
     (title "CANbus Acquisition Module")
-    (date "2022-06-01")
-    (rev "A2")
+    (date "2022-10-04")
+    (rev "A3")
     (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
     (comment 1 "Designer: Hugo Boyce")
   )

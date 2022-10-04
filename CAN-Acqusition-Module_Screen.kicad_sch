@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CANbus Acquisition Module")
+    (date "2022-10-04")
+    (rev "A3")
+    (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
+    (comment 1 "Designer: Hugo Boyce")
+  )
+
   (lib_symbols
     (symbol "CAN-Acquisition-Module:ERC13232FN-1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 1.27 1.27 0)

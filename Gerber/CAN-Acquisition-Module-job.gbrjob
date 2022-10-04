@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.7-f9a2dced07~116~ubuntu20.04.1"
+      "Version": "6.0.8-f2edbf62ab~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-09-20T15:31:06-04:00"
+    "CreationDate": "2022-10-04T16:34:13-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "CAN-Acquisition-Module",
       "GUID": "43414e2d-4163-4717-9569-736974696f6e",
-      "Revision": "rev?"
+      "Revision": "A3"
     },
     "Size": {
       "X": 95.1,
@@ -25,8 +25,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
       "TrackToTrack": 0.127,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.127,

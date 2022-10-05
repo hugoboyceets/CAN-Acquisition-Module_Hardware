@@ -369,7 +369,7 @@
     (uuid f8b3debc-160b-4ebf-b062-c36a08ace1f0)
   )
 
-  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix"
+  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\n"
     (at 16.51 185.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41cf071c-4f4d-4642-8a60-14e0781ba38f)
@@ -1556,16 +1556,16 @@
       (reference "C43") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/71359799-714b-4644-8db4-495310f76a1b/7004cdd7-3681-4bf3-9e76-794f5450a63a"
-      (reference "C44") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C44") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/71359799-714b-4644-8db4-495310f76a1b/f08dfbd8-2dec-44ae-b168-2f2708e1aa24"
-      (reference "C45") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C45") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/71359799-714b-4644-8db4-495310f76a1b/45ca6ada-6f1e-4756-b08c-de2fea6d5903"
-      (reference "C46") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C46") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/71359799-714b-4644-8db4-495310f76a1b/95ca51fd-e4e0-4028-8ae9-68556ba9b26b"
-      (reference "C47") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C47") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/5f5345ca-f2d2-466f-a4ac-3c846c4226e8/959fe419-961a-4323-b067-cdd3d4e5cd29"
       (reference "C48") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1619,16 +1619,16 @@
       (reference "C64") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a7ab022e-987c-4858-83e2-b4df42ea9922/7004cdd7-3681-4bf3-9e76-794f5450a63a"
-      (reference "C65") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C65") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a7ab022e-987c-4858-83e2-b4df42ea9922/f08dfbd8-2dec-44ae-b168-2f2708e1aa24"
-      (reference "C66") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C66") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a7ab022e-987c-4858-83e2-b4df42ea9922/45ca6ada-6f1e-4756-b08c-de2fea6d5903"
-      (reference "C67") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C67") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a7ab022e-987c-4858-83e2-b4df42ea9922/95ca51fd-e4e0-4028-8ae9-68556ba9b26b"
-      (reference "C68") (unit 1) (value "47 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C68") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/c1b863f4-d8a3-46b3-b82c-8bba37961f44"
       (reference "D1") (unit 1) (value "CUS05S40") (footprint "CAN-Acquisition-Module:Toshiba_USC")

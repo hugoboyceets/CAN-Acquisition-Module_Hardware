@@ -369,7 +369,7 @@
     (uuid f8b3debc-160b-4ebf-b062-c36a08ace1f0)
   )
 
-  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\n"
+  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Added some LCSC part numbers\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\n"
     (at 16.51 185.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41cf071c-4f4d-4642-8a60-14e0781ba38f)
@@ -2033,7 +2033,7 @@
       (reference "U4") (unit 1) (value "SST25VF080B-50-4x-S2Ax") (footprint "CAN-Acquisition-Module:SOIC-8_P1.27mm_Multi")
     )
     (path "/6a23b5b9-2864-4994-bd7a-8563b9182093/bfac1122-ceea-4c6d-944c-ae41c70eefa5"
-      (reference "U5") (unit 1) (value "SN65HVD234") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U5") (unit 1) (value "SN65HVD235") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/71359799-714b-4644-8db4-495310f76a1b/91ded3ad-ffd9-462d-bc57-c7590de3347b"
       (reference "U6") (unit 1) (value "BD12734FVJ-E2") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")

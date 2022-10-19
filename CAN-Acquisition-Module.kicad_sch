@@ -369,8 +369,8 @@
     (uuid f8b3debc-160b-4ebf-b062-c36a08ace1f0)
   )
 
-  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Added some LCSC part numbers\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\n"
-    (at 16.51 185.42 0)
+  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Added some LCSC part numbers\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\nB1:\n- Changed the buck switcher from S-8581AA to AP63200 because of unavailability"
+    (at 16.51 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41cf071c-4f4d-4642-8a60-14e0781ba38f)
   )
@@ -892,14 +892,8 @@
     (path "/00000000-0000-0000-0000-0000628fba98/b6b3f129-a9d8-4d54-be7c-2b2d5df7d79a"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/76677108-2d86-40df-8da8-3adc1b48b568"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000628fba98/a44a161f-59e8-4a07-bda9-a9f7ef5f0a45"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000628fba98/632a14c4-5418-41de-8bdb-5fb2d71f0eb0"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/e99bd506-f24e-431f-b2ff-be9b37c274e1"
       (reference "#PWR026") (unit 1) (value "VBUS") (footprint "")
@@ -1450,14 +1444,14 @@
     (path "/00000000-0000-0000-0000-0000628fba98/b7b69433-baee-4a62-9241-81c6060e05a5"
       (reference "C8") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/d5058c67-b3f8-4ce2-b079-04b7c813c1f7"
-      (reference "C9") (unit 1) (value "1 uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-0000628fba98/57217b3d-ea71-41cb-b42e-2d16385a35c0"
+      (reference "C9") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/3164e408-fd78-4800-8190-1f71e5f46e9c"
       (reference "C10") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/bef2da02-8637-419f-aa56-8ca839c90801"
-      (reference "C11") (unit 1) (value "33 pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-0000628fba98/ebb98d33-c041-4cc2-915f-f7d313945072"
+      (reference "C11") (unit 1) (value "47 pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/c5afc38f-6d76-4442-b66e-a96e615f68b6"
       (reference "C12") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1774,8 +1768,8 @@
     (path "/00000000-0000-0000-0000-0000628fba98/266f92cc-de0c-44f8-b657-4152290051a1"
       (reference "L2") (unit 1) (value "470 uH") (footprint "CAN-Acquisition-Module:Murata_LQH43_1812(4532_Metric)")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/f1815cfb-946b-45e1-985b-8e0ed5e489f3"
-      (reference "L3") (unit 1) (value "4.7 uH") (footprint "Inductor_SMD:L_1008_2520Metric")
+    (path "/00000000-0000-0000-0000-0000628fba98/b63a63c6-3569-4d11-9c51-0d08b6e3afab"
+      (reference "L3") (unit 1) (value "6.8 uH") (footprint "CAN-Acquisition-Module:Murata_LQH3_1212(3030_Metric)")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/00000000-0000-0000-0000-000062a18c81"
       (reference "L4") (unit 1) (value "Ferrite") (footprint "Inductor_SMD:L_0603_1608Metric")
@@ -1814,10 +1808,10 @@
       (reference "R7") (unit 1) (value "10 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fba98/d211914c-1b58-429d-a5af-715028c1a46e"
-      (reference "R8") (unit 1) (value "47 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "18.2 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/bb37d496-e761-4ef3-bef0-688ba9e9bb7c"
-      (reference "R9") (unit 1) (value "15 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-0000628fba98/5b1d0791-c9c8-475c-9bc2-489348ee00a7"
+      (reference "R9") (unit 1) (value "6.2 kΩ") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/e3b2b661-117a-4ce1-8c99-8ba64393126c"
       (reference "R10") (unit 1) (value "300 Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1849,8 +1843,8 @@
     (path "/6a23b5b9-2864-4994-bd7a-8563b9182093/1199abe3-116f-474b-9e98-49648be6ba96"
       (reference "R19") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/6a23b5b9-2864-4994-bd7a-8563b9182093/f4e8f079-13e2-474d-b2a5-b77899afb5ca"
-      (reference "R20") (unit 1) (value "22 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/6a23b5b9-2864-4994-bd7a-8563b9182093/21f6975f-0eb3-4988-a59b-86a1a79a7d24"
+      (reference "R20") (unit 1) (value "18.2 kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/6a23b5b9-2864-4994-bd7a-8563b9182093/1cf81b43-2c10-41da-9491-13a80c1363a9"
       (reference "R21") (unit 1) (value "Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2023,8 +2017,8 @@
     (path "/00000000-0000-0000-0000-0000628fba98/00000000-0000-0000-0000-000062a4568c"
       (reference "U1") (unit 1) (value "AZ431LAN") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-0000628fba98/1e04a080-bbaf-4b74-9a27-2d4ce3bbc20d"
-      (reference "U2") (unit 1) (value "S-8581AA") (footprint "CAN-Acquisition-Module:Ablic_HSTN-8-A")
+    (path "/00000000-0000-0000-0000-0000628fba98/a965ceb8-8aca-4c71-b50d-dcb1cce225e4"
+      (reference "U2") (unit 1) (value "AP63200") (footprint "CAN-Acquisition-Module:Diodes-Inc_TSOT26")
     )
     (path "/00000000-0000-0000-0000-0000628fa103/00000000-0000-0000-0000-0000628f5983"
       (reference "U3") (unit 1) (value "M483SGCAE") (footprint "Package_QFP:LQFP-64_7x7mm_P0.4mm")

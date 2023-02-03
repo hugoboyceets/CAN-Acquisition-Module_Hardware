@@ -7,7 +7,7 @@
   (title_block
     (title "CANbus Acquisition Module")
     (date "2022-10-19")
-    (rev "B1")
+    (rev "B2")
     (company "École de Technologie Supérieure - Laboratoire thermique et science du bâtiment (LTSB)")
     (comment 1 "Designer: Hugo Boyce")
   )
@@ -369,7 +369,7 @@
     (uuid f8b3debc-160b-4ebf-b062-c36a08ace1f0)
   )
 
-  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Added some LCSC part numbers\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\nB1:\n- Changed the buck switcher from S-8581AA to AP63200 because of unavailability"
+  (text "--- Revision History ---\nA1: Initial release\nA2:\n- VUSB bypasses inductor L2\n- Reduce screw terminal hole size\n- Thermally isolate SHT3x \n- U1 footprint fix\nA3:\n- Fixed violating silkscreen\n- Added some LCSC part numbers\n- Changed C44-C47, C65-C68 from 47uF to 4.7uf because filtration can be done in s/w.\nB1:\n- Changed the buck switcher from S-8581AA to AP63200 because of unavailability\nB2:\n- Corrected bandwidth text on analog page to reflect the capacitor change in A3"
     (at 16.51 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41cf071c-4f4d-4642-8a60-14e0781ba38f)
